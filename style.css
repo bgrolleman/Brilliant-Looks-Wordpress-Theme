@@ -134,6 +134,11 @@ hr { display: none; }
 #menu .first {
 	background: none;
 }
+
+#menu ul.children {
+	display: none;
+}
+
 /* Search */
 
 #header-search {
@@ -236,6 +241,7 @@ hr { display: none; }
 #logo h1 {
 	padding-top: 10px;
 	font-size: 48px;
+	display: none;
 }
 
 #logo a {
@@ -245,9 +251,14 @@ hr { display: none; }
 
 #logo h1 a {
 	text-decoration: none;
-	color: #FFFFFF;
+	color: #F71476;
 }
 
+#logo img {
+	margin-left: auto;
+	margin-right: auto;
+	display:block;
+}
 
 #banner {
 	padding-bottom: 20px;
@@ -500,4 +511,8 @@ hr { display: none; }
 
 hr {
 	display: none;
+}
+
+#footer div.menu li {
+	display: inline
 }

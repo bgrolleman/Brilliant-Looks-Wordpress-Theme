@@ -12,6 +12,9 @@
 		Powered by <a href="http://wordpress.org/">WordPress</a>.
 		&nbsp;&nbsp;&bull;&nbsp;&nbsp;
 		Designed by <a href="http://www.freewpthemes.net/">Free WordPress Themes</a>. </p>
+		
+		<div class="menu"><?php wp_nav_menu ( array('theme_location' => 'footer')); ?></div>
+
 </div>
 </div>
 <?php wp_footer(); ?>
