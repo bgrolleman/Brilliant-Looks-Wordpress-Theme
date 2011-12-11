@@ -16,7 +16,7 @@
 </head>
 <body>
 <div id="logo">
-	<img src="<?php bloginfo('template_directory'); ?>/images/logo.png" /> 
+	<img src="<?php header_image() ?>" />
 	<h1><a href="<?php echo get_option('home'); ?>/"><?php bloginfo('name'); ?></a></h1>
 	<p><em><?php bloginfo('description'); ?></em></p>
 </div>
