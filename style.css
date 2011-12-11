@@ -493,11 +493,11 @@ hr { display: none; }
 	line-height: normal;
 	text-transform: uppercase;
 	font-size: 10px;
-	color: #FFFFFF;
+	color: grey;
 }
 
 #footer a {
-	color: #E5FFC4;
+	color: grey;
 }
 
 #commentform {
