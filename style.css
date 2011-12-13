@@ -32,7 +32,6 @@ body {
 
 h1, h2, h3 {
 	margin: 0;
-	text-transform: uppercase;
 	font-weight: normal;
 	font-style: italic;
 	font-family: times;
@@ -288,7 +287,7 @@ hr { display: none; }
 
 #content {
 	float: left;
-	width: 580px;
+	width: 500px;
 }
 
 /* Post */
